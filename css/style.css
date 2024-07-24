@@ -1,0 +1,46 @@
+/* .loading{
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
+    border: 2px solid blueviolet;
+    overflow: hidden;
+    
+}
+.container{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.loading .slide{
+    height: inherit;
+    background-color: blue;
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes loading{
+    from{
+        width: 0px;
+    }
+    to{
+        width: inherit;
+    }
+} */
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+.container{
+   border: 2px dashed red;
+}
+.menu_strip{
+    display: none;
+}
+#list:checked + .menu_strip{
+  display: block;
+}
+
+
+    
